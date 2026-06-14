@@ -25,7 +25,7 @@
 
 ```bash
 # 1. 把仓库 clone 到 ~/.claude/skills/ 目录下
-git clone https://github.com/duangjaiignacy-blip/kunkun.git ~/.claude/skills/claude-code-statusline
+git clone https://github.com/duangjaiignacy-blip/claude-code-statusline.git ~/.claude/skills/claude-code-statusline
 
 # 2. 一键安装（会自动备份并修改 ~/.claude/settings.json）
 bash ~/.claude/skills/claude-code-statusline/install.sh
@@ -45,7 +45,7 @@ bash ~/.claude/skills/claude-code-statusline/install.sh
 
 ```bash
 # 把脚本放到任意位置
-curl -fsSL https://raw.githubusercontent.com/duangjaiignacy-blip/kunkun/main/statusline.sh \
+curl -fsSL https://raw.githubusercontent.com/duangjaiignacy-blip/claude-code-statusline/main/statusline.sh \
   -o ~/.claude/statusline-zh.sh
 chmod +x ~/.claude/statusline-zh.sh
 ```
